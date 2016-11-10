@@ -1,0 +1,8 @@
+[
+  {"keys": ["enter"], "command": "better_auto_indent",
+   "context": [
+     {"key": "setting.translate_tabs_to_spaces"},
+     {"key": "preceding_text", "operator": "regex_contains", "operand": "[({[].*$", "match_all": false}
+   ]
+  }
+]
