@@ -5,17 +5,17 @@ An attempt to mirror the functionality of indent_to_bracket in sublime that
 only works for parenthesis to '[' and '{' brackets/braces. This plugin is still
 in development so there may be various issues you can run into.
 
-The general idea is to indent arguments in a function call to the opening
-bracket so that:
+The general idea is to indent arguments in a tuple, list, or dictionary to the
+opening bracket so that:
 
 ```
-dict = {'a': 1, 'b': 2<enter>
+dict = {'a': 1, 'b': 2, <enter>
 ```
 
 aligns caret following way:
 
 ```
-dict = {'a': 1, 'b': 2
+dict = {'a': 1, 'b': 2,
         |
 ```
 
