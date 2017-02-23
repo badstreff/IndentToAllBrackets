@@ -19,10 +19,21 @@ dict = {'a': 1, 'b': 2,
         |
 ```
 
-Installation Instructions
+Installation & Setup Instructions
 -------------------------------------------------------------------------------
 
 1. Copy the better_auto_indent.py into your packages directory. On OS X this is
 `~/Library/Application Support/Sublime Text 3/Packages/User`
+
+-or-
+
+Use the Sublime Text Package manager available [here](https://packagecontrol.io/)
+
+
 2. Copy-Paste the *contents* of the Defaults.sublime-keymap into your keymap
 settings file. `Sublime Text > Preferences > Key Bindings`
+
+
+Contributing
+-------------------------------------------------------------------------------
+Any pull requests welcome!
